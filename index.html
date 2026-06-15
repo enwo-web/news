@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="fa-IR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>خبرگزاری روز — اخبار معتبر ایران و جهان</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;500;600;700&family=Amiri:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <!-- Top Bar -->
+        <div class="top-bar">
+        <div class="container">
+            <div class="top-bar-date" id="current-date-time">جمعه، ۱۵ خرداد ۱۴۰۵</div>
+            <div class="top-bar-social">
+                <a href="https://t.me/enwo_web"><i class="fab fa-telegram"></i> تلگرام</a>
+                <a href="https://instagram.com/enwo_web"><i class="fab fa-instagram"></i> اینستاگرام</a>
+                <a href="#"><i class="fab fa-twitter"></i> توییتر</a>
+            </div>
+            </div>
+        </div>
+        
+        <div class="header-main">
+            <div class="container">
+                <div class="logo" id="goToHome">
+                    <div class="logo-ar">خبرگزاری روز</div>
+                    <div class="logo-divider"></div>
+                    <div class="logo-tagline">اخبار آزمایشی · تحلیل دمو · گزارش گذشته</div>
+                </div>
+                <div class="header-center">
+                    <div class="date-time" id="current-date-time-header"></div>
+                </div>
+                <div class="search-bar">
+                    <input type="text" id="searchInput" placeholder="جستجو در اخبار...">
+                    <button id="searchButton"><i class="fas fa-search"></i></button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Navigation -->
+        <nav>
+            <div class="container">
+                <ul>
+                    <li><a href="#" class="nav-link active" data-category="all">صفحه اصلی</a></li>
+                    <li><a href="#" class="nav-link" data-category="political">سیاسی</a></li>
+                    <li><a href="#" class="nav-link" data-category="economic">اقتصادی</a></li>
+                    <li><a href="#" class="nav-link" data-category="international">بین‌الملل</a></li>
+                    <li><a href="#" class="nav-link" data-category="sports">ورزشی</a></li>
+                    <li><a href="#" class="nav-link" data-category="cultural">فرهنگی</a></li>
+                    <li><a href="#" class="nav-link" data-category="technology">تکنولوژی</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Breaking News Ticker -->
+    <div class="breaking-ticker">
+        <div class="ticker-label">
+            <i class="fas fa-bolt"></i> فوری
+        </div>
+        <div class="ticker-wrapper">
+            <div class="ticker-track" id="tickerTrack"></div>
+        </div>
+    </div>
+
+    <!-- Main Container -->
+    <div class="container">
+
+        <!-- Category Title (hidden by default) -->
+        <div id="categoryTitle" class="category-title hidden">
+            <i id="categoryIcon"></i>
+            <h1 id="categoryName"></h1>
+        </div>
+
+        <!-- Search Results (hidden by default) -->
+        <div id="searchResults" class="search-results hidden">
+            <div class="section-title">
+                <i class="fas fa-search"></i>
+                <h2>نتایج جستجو</h2>
+            </div>
+            <div class="results-count" id="resultsCount"></div>
+            <div id="searchResultsContainer"></div>
+        </div>
+
+        <!-- Main Content Grid -->
+        <div class="main-content">
+
+            <!-- Left Column -->
+            <div class="left-column">
+
+                <!-- Featured News -->
+                <section class="featured-news" id="featuredNews">
+                    <div class="section-title">
+                        <i class="fas fa-star"></i>
+                        <h2>خبرهای برتر</h2>
+                    </div>
+                    <div class="featured-grid" id="featuredGrid"></div>
+                </section>
+
+                <!-- Latest News -->
+                <section class="news-list" id="latestNews">
+                    <div class="section-title">
+                        <i class="fas fa-bolt"></i>
+                        <h2>آخرین اخبار</h2>
+                    </div>
+                    <div class="news-items" id="newsItemsContainer"></div>
+                </section>
+
+            </div>
+
+            <!-- Sidebar -->
+            <aside class="sidebar">
+
+                <div class="sidebar-widget">
+                    <h3>پربازدیدترین‌ها</h3>
+                    <ul class="trending-news" id="trendingNews"></ul>
+                </div>
+
+                <div class="sidebar-widget">
+                    <h3>دسته‌بندی‌ها</h3>
+                    <ul class="categories-list" id="categoriesList"></ul>
+                </div>
+
+                <div class="sidebar-widget">
+                    <h3>خبرنامه</h3>
+                    <p>با عضویت در خبرنامه، آخرین اخبار را در ایمیل خود دریافت کنید.</p>
+                    <div class="newsletter-input-wrap">
+                        <input type="email" placeholder="آدرس ایمیل شما">
+                        <button><i class="fas fa-paper-plane"></i></button>
+                    </div>
+                </div>
+
+            </aside>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-top-border"></div>
+            <div class="footer-content">
+
+                <div class="footer-about">
+                    <span class="footer-logo" id="goToHomeFooter">خبرگزاری روز</span>
+                    <p>این سایت خبرگزاری یک نمونه آزمایشی و دمو است که صرفا برای نشان دادن مهارت های تیم ما به شما به منظور از اعتماد شما است</p>
+                    <div class="social-links">
+                        <a href="https://t.me/enwo_web"><i class="fab fa-telegram"></i></a>
+                        <a href="https://instagram.com/enwo_web"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-links">
+                    <h4>لینک‌های سریع</h4>
+                    <ul>
+                        <li><a href="#">تماس با ما</a></li>
+                        <li><a href="#">درباره ما</a></li>
+                        <li><a href="#">نویسندگان</a></li>
+                        <li><a href="#">آرشیو خبری</a></li>
+                        <li><a href="#">قوانین و مقررات</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h4>بخش‌های خبری</h4>
+                    <ul>
+                        <li><a href="#" class="category-link" data-category="political">سیاسی</a></li>
+                        <li><a href="#" class="category-link" data-category="economic">اقتصادی</a></li>
+                        <li><a href="#" class="category-link" data-category="cultural">فرهنگی</a></li>
+                        <li><a href="#" class="category-link" data-category="sports">ورزشی</a></li>
+                        <li><a href="#" class="category-link" data-category="international">بین‌الملل</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="footer-bottom">
+                <p>انو وب | enwo web &copy; ۱۴۰۵</p>
+                <p>این سایت یک نمونه آزمایشی است</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
