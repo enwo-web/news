@@ -1,15 +1,13 @@
 <div align="center">
 
-<br/>
+<img src="./assets/enwo-logo.jpg" width="340" alt="ENWO WEB logo"/>
+
+<br/><br/>
 
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
-
 <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
-
 <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white"/>
-
 <img src="https://img.shields.io/badge/Responsive-Design-2ea44f?style=for-the-badge"/>
-
 <img src="https://img.shields.io/badge/Status-Demo%20Project-orange?style=for-the-badge"/>
 
 </div>
@@ -31,39 +29,28 @@
 ## ✨ ویژگی‌ها
 
 | ویژگی | توضیح |
-
 |:---:|:---|
-
 | 📱 ریسپانسیو کامل | سازگار با موبایل، تبلت و دسکتاپ |
-
-| 🧩 کامپوننت‌های ماژولار | هدر، کارت خبر و فوتر و نوار سرچ |
-
+| 🧩 کامپوننت‌های ماژولار | هدر، کارت خبر و فوتر به‌صورت جداگانه و قابل‌استفاده مجدد |
 | 🎨 UI/UX مدرن | طراحی تمیز با تمرکز بر خوانایی و نمایش محتوا |
-
 | ⚙️ بدون نیاز به بک‌اند | اجرا فقط با مرورگر، بدون نیاز به سرور یا دیتابیس |
 
 <br/>
+
+
 
 <div align="center">
 
 ### 📡 ارتباط با ما
 
 <a href="https://instagram.com/enwo_web" target="_blank">
-
   <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
-
 </a>
-
 <a href="https://t.me/enwo_web" target="_blank">
-
   <img src="https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white"/>
-
 </a>
-
 <a href="https://youtube.com/@enwo_web" target="_blank">
-
   <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white"/>
-
 </a>
 
 <br/><br/>
@@ -72,6 +59,6 @@
 
 <br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:2575fc,100:6a11cb" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:0d0d0d,100:c9a227" width="100%"/>
 
 </div>
