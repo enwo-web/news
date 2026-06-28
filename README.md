@@ -37,18 +37,6 @@
 
 <br/>
 
-## 🚀 نحوه اجرا
-
-```bash
-git clone https://github.com/USERNAME/REPO-NAME.git
-cd REPO-NAME
-```
-
-سپس فایل `index.html` را در مرورگر باز کنید — نیازی به نصب چیز دیگری نیست.
-
-</div>
-
----
 
 <div align="center">
 
