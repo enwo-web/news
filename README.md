@@ -75,4 +75,3 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:2575fc,100:6a11cb" width="100%"/>
 
 </div>
-
