@@ -1,7 +1,5 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=180&section=header&text=ENWO%20WEB&fontSize=55&fontColor=FFFFFF&fontAlign=50&fontAlignY=38&desc=Front-End%20News%20%26%20Magazine%20Template&descAlign=50&descAlignY=62&descSize=16&animation=fadeIn&color=0:6a11cb,100:2575fc" width="100%"/>
-
 <br/>
 
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
