@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/enwo-logo.jpg" width="340" alt="ENWO WEB logo"/>
+<img src="enwo-logo.jpg" width="340" alt="ENWO WEB logo"/>
 
 <br/><br/>
 
