@@ -61,8 +61,4 @@
 
 ⭐ **اگر این پروژه برات مفید بود، فراموش نکن یه Star بدی.**
 
-<br><br>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&height=180&color=0:0d0d0d,50:c9a227,100:0d0d0d&text=ENWO%20WEB&fontColor=ffffff&fontSize=42&fontAlignY=70&animation=fadeIn"/>
-
 </div>
